@@ -1,0 +1,42 @@
+{% extends "admin/change_form.html" %}
+{% load i18n %}
+
+{% block after_field_sets %}
+{{ block.super }}
+{% if faker_fields %}
+<fieldset class="module aligned">
+  <h2>{% trans "Field Faker Configuration" %}</h2>
+  <div class="form-row">
+    <table style="width:100%;border-collapse:collapse;font-size:13px">
+      <thead>
+        <tr style="background:#f8f8f8">
+          <th style="text-align:left;padding:8px 12px;border-bottom:1px solid #ddd">Field name</th>
+          <th style="text-align:left;padding:8px 12px;border-bottom:1px solid #ddd">Type</th>
+          <th style="text-align:left;padding:8px 12px;border-bottom:1px solid #ddd">Faker type</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for field in faker_fields %}
+        <tr>
+          <td style="padding:6px 12px;border-bottom:1px solid #eee;font-family:monospace">{{ field.name }}</td>
+          <td style="padding:6px 12px;border-bottom:1px solid #eee">{{ field.type }}</td>
+          <td style="padding:6px 12px;border-bottom:1px solid #eee">
+            {% if field.is_text %}
+            <select name="faker_{{ field.name }}" style="min-width:160px">
+              <option value="">— default (sentence) —</option>
+              {% for key, label in faker_type_choices %}
+              <option value="{{ key }}"{% if field.current_value == key %} selected{% endif %}>{{ label }}</option>
+              {% endfor %}
+            </select>
+            {% else %}
+            <em style="color:#999">(fixed)</em>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</fieldset>
+{% endif %}
+{% endblock %}
