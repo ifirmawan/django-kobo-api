@@ -1,0 +1,967 @@
+{
+    "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/?format=json",
+    "owner": "https://kf.kobotoolbox.org/api/v2/users/ndma_uneswacdi/?format=json",
+    "owner__username": "ndma_uneswacdi",
+    "parent": null,
+    "settings": {
+        "sector": {
+            "label": "Humanitarian - Coordination / Information Management",
+            "value": "Humanitarian - Coordination / Information Management"
+        },
+        "country": [
+            {
+                "label": "Swaziland",
+                "value": "SWZ"
+            }
+        ],
+        "description": "IKS - CDI-E",
+        "collects_pii": null,
+        "organization": "",
+        "country_codes": [
+            "SWZ"
+        ],
+        "operational_purpose": null
+    },
+    "asset_type": "survey",
+    "files": [],
+    "summary": {
+        "geo": false,
+        "labels": [
+            "A1. Name of citizen scientist/Libito laso Science",
+            "A2. Name of constituency reporting on/Libito lenkhundla lokubikwa ngayo",
+            "A3. Name of chiefdom/community reporting on/Libito lemphakatsi/sigodzi lokubikwa ngaso",
+            "B1. Which of the following rainfall predicting indicators have you observed/seen in your area? Ngutiphi tinkhomba noma timphawu temvula letisetjentiswa kulendzawo kuphengula simo selitulu lotibonile noma lotivile endzaweni yakho?",
+            "B1.1. BS – Blue swallows nature of appearance (Tinkonjane indlela letibonakela ngayo)"
+        ],
+        "columns": [
+            "type",
+            "label",
+            "required",
+            "select_from_list_name",
+            "parameters"
+        ],
+        "lock_all": false,
+        "lock_any": false,
+        "languages": [],
+        "row_count": 12,
+        "name_quality": {
+            "ok": 12,
+            "bad": 0,
+            "good": 0,
+            "total": 12,
+            "firsts": {
+                "ok": {
+                    "name": "A1_Name_of_citizen_Libito_laso_Science",
+                    "index": 1,
+                    "label": [
+                        "A1. Name of citizen scientist/Libito laso Science"
+                    ]
+                }
+            }
+        },
+        "default_translation": null
+    },
+    "date_created": "2026-05-07T08:05:17.653866Z",
+    "date_modified": "2026-05-07T08:05:35.294934Z",
+    "date_deployed": "2026-05-07T08:05:35.294686Z",
+    "version_id": "vHpEzLVEovyTBPF7bgCHsd",
+    "version__content_hash": "c2909426309e3fbdb57be9674b8057f9a69be73f",
+    "version_count": 1,
+    "has_deployment": true,
+    "deployed_version_id": "vHpEzLVEovyTBPF7bgCHsd",
+    "deployed_versions": {
+        "count": 1,
+        "next": null,
+        "previous": null,
+        "results": [
+            {
+                "uid": "vHpEzLVEovyTBPF7bgCHsd",
+                "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/versions/vHpEzLVEovyTBPF7bgCHsd/?format=json",
+                "content_hash": "c2909426309e3fbdb57be9674b8057f9a69be73f",
+                "date_deployed": "2026-05-07T08:05:35.289430Z",
+                "date_modified": "2026-05-07T08:05:35.289430Z"
+            }
+        ]
+    },
+    "deployment__links": {
+        "url": "https://ee.kobotoolbox.org/ebVbHoda",
+        "single_url": "https://ee.kobotoolbox.org/single/ebVbHoda",
+        "single_once_url": "https://ee.kobotoolbox.org/single/f142efff99268b6d35fd06db98236bfe",
+        "offline_url": "https://ee.kobotoolbox.org/x/ebVbHoda",
+        "preview_url": "https://ee.kobotoolbox.org/preview/ebVbHoda",
+        "iframe_url": "https://ee.kobotoolbox.org/i/ebVbHoda",
+        "single_iframe_url": "https://ee.kobotoolbox.org/single/i/ebVbHoda",
+        "single_once_iframe_url": "https://ee.kobotoolbox.org/single/i/f142efff99268b6d35fd06db98236bfe"
+    },
+    "deployment__active": true,
+    "deployment__data_download_links": {
+        "xls_legacy": "https://kc.kobotoolbox.org/ndma_uneswacdi/exports/a3ytas3GLhSewNTZByCCsd/xls/",
+        "csv_legacy": "https://kc.kobotoolbox.org/ndma_uneswacdi/exports/a3ytas3GLhSewNTZByCCsd/csv/",
+        "zip_legacy": "https://kc.kobotoolbox.org/ndma_uneswacdi/exports/a3ytas3GLhSewNTZByCCsd/zip/",
+        "kml_legacy": "https://kc.kobotoolbox.org/ndma_uneswacdi/exports/a3ytas3GLhSewNTZByCCsd/kml/",
+        "xls": "https://kc.kobotoolbox.org/ndma_uneswacdi/reports/a3ytas3GLhSewNTZByCCsd/export.xlsx",
+        "csv": "https://kc.kobotoolbox.org/ndma_uneswacdi/reports/a3ytas3GLhSewNTZByCCsd/export.csv"
+    },
+    "deployment__submission_count": 2,
+    "deployment__last_submission_time": "2026-05-07T08:10:27.295712Z",
+    "deployment__encrypted": false,
+    "deployment__uuid": "d35165936ba04984b69fd266615b0197",
+    "deployment_status": "deployed",
+    "report_styles": {
+        "default": {},
+        "specified": {
+            "end": {},
+            "start": {},
+            "hs4qf13": {},
+            "hy9rh55": {},
+            "jx0iv46": {},
+            "ll2tz27": {},
+            "ls8nn06": {},
+            "ot0kn23": {},
+            "qw0nj91": {},
+            "qy6ob16": {},
+            "tw8fg27": {},
+            "ws2hw78": {},
+            "zk0qq61": {},
+            "zr1pm34": {},
+            "/nm8ap85": {},
+            "/uz0so21": {},
+            "/wn6lp94": {},
+            "/yx2dk30": {},
+            "group_bx6rt12": {},
+            "group_mq8ds86": {},
+            "group_tn4ao32": {},
+            "group_yc81a25": {}
+        },
+        "kuid_names": {
+            "end": "Kv8R6pdDJ",
+            "start": "haCWXaMzV",
+            "hs4qf13": "hs4qf13",
+            "hy9rh55": "hy9rh55",
+            "jx0iv46": "jx0iv46",
+            "ll2tz27": "ll2tz27",
+            "ls8nn06": "ls8nn06",
+            "ot0kn23": "ot0kn23",
+            "qw0nj91": "qw0nj91",
+            "qy6ob16": "qy6ob16",
+            "tw8fg27": "tw8fg27",
+            "ws2hw78": "ws2hw78",
+            "zk0qq61": "zk0qq61",
+            "zr1pm34": "zr1pm34",
+            "/nm8ap85": "/nm8ap85",
+            "/uz0so21": "/uz0so21",
+            "/wn6lp94": "/wn6lp94",
+            "/yx2dk30": "/yx2dk30",
+            "group_bx6rt12": "nm8ap85",
+            "group_mq8ds86": "wn6lp94",
+            "group_tn4ao32": "yx2dk30",
+            "group_yc81a25": "uz0so21"
+        }
+    },
+    "report_custom": {},
+    "advanced_features": {
+        "_version": "20250820"
+    },
+    "map_styles": {},
+    "map_custom": {},
+    "content": {
+        "schema": "1",
+        "survey": [
+            {
+                "name": "start",
+                "type": "start",
+                "$kuid": "haCWXaMzV",
+                "$xpath": "start",
+                "$autoname": "start"
+            },
+            {
+                "name": "end",
+                "type": "end",
+                "$kuid": "Kv8R6pdDJ",
+                "$xpath": "end",
+                "$autoname": "end"
+            },
+            {
+                "name": "group_yc81a25",
+                "type": "begin_group",
+                "$kuid": "uz0so21",
+                "label": [
+                    "A. General information"
+                ],
+                "$xpath": "group_yc81a25",
+                "$autoname": "group_yc81a25"
+            },
+            {
+                "type": "text",
+                "$kuid": "zr1pm34",
+                "label": [
+                    "A1. Name of citizen scientist/Libito laso Science"
+                ],
+                "$xpath": "group_yc81a25/A1_Name_of_citizen_Libito_laso_Science",
+                "required": false,
+                "$autoname": "A1_Name_of_citizen_Libito_laso_Science"
+            },
+            {
+                "type": "text",
+                "$kuid": "ll2tz27",
+                "label": [
+                    "A2. Name of constituency reporting on/Libito lenkhundla lokubikwa ngayo"
+                ],
+                "$xpath": "group_yc81a25/A2_Name_of_constitu_ndla_lokubikwa_ngayo",
+                "required": false,
+                "$autoname": "A2_Name_of_constitu_ndla_lokubikwa_ngayo"
+            },
+            {
+                "type": "text",
+                "$kuid": "jx0iv46",
+                "label": [
+                    "A3. Name of chiefdom/community reporting on/Libito lemphakatsi/sigodzi lokubikwa ngaso"
+                ],
+                "$xpath": "group_yc81a25/A3_Name_of_chiefdom_odzi_lokubikwa_ngaso",
+                "required": false,
+                "$autoname": "A3_Name_of_chiefdom_odzi_lokubikwa_ngaso"
+            },
+            {
+                "type": "end_group",
+                "$kuid": "/uz0so21"
+            },
+            {
+                "name": "group_tn4ao32",
+                "type": "begin_group",
+                "$kuid": "yx2dk30",
+                "label": [
+                    "B. Rainfall prediction/Kuphengula simo selitulu/semvula"
+                ],
+                "$xpath": "group_tn4ao32",
+                "$autoname": "group_tn4ao32"
+            },
+            {
+                "type": "select_multiple",
+                "$kuid": "ls8nn06",
+                "label": [
+                    "B1. Which of the following rainfall predicting indicators have you observed/seen in your area? Ngutiphi tinkhomba noma timphawu temvula letisetjentiswa kulendzawo kuphengula simo selitulu lotibonile noma lotivile endzaweni yakho?"
+                ],
+                "$xpath": "group_tn4ao32/B1_Which_of_the_fol_vile_endzaweni_yakho",
+                "required": false,
+                "$autoname": "B1_Which_of_the_fol_vile_endzaweni_yakho",
+                "select_from_list_name": "do2ug34"
+            },
+            {
+                "type": "select_one",
+                "$kuid": "zk0qq61",
+                "label": [
+                    "B1.1. BS – Blue swallows nature of appearance (Tinkonjane indlela letibonakela ngayo)"
+                ],
+                "$xpath": "group_tn4ao32/B1_1_BS_Blue_swal_a_letibonakela_ngayo",
+                "required": false,
+                "$autoname": "B1_1_BS_Blue_swal_a_letibonakela_ngayo",
+                "select_from_list_name": "bz2rx27"
+            },
+            {
+                "type": "select_one",
+                "$kuid": "hs4qf13",
+                "label": [
+                    "B1.6. JC – Jacobin Cuckoo nature of sound (Inkanku indlela lekhala ngayo)"
+                ],
+                "$xpath": "group_tn4ao32/B1_6_JC_Jacobin_C_ndlela_lekhala_ngayo",
+                "required": false,
+                "$autoname": "B1_6_JC_Jacobin_C_ndlela_lekhala_ngayo",
+                "select_from_list_name": "bu8bi51"
+            },
+            {
+                "type": "select_one",
+                "$kuid": "hy9rh55",
+                "label": [
+                    "B1.9. F – Flogs nature of calling (Emacoco indlela lakhala ngayo)"
+                ],
+                "$xpath": "group_tn4ao32/B1_9_F_Flogs_natu_ndlela_lakhala_ngayo",
+                "required": false,
+                "$autoname": "B1_9_F_Flogs_natu_ndlela_lakhala_ngayo",
+                "select_from_list_name": "du7ql49"
+            },
+            {
+                "type": "select_one",
+                "$kuid": "ot0kn23",
+                "label": [
+                    "B1.12. C/R – Chicken/rooster behavior (indlela tinkhukhu letenta/letitiphatsa ngayo)"
+                ],
+                "$xpath": "group_tn4ao32/B1_12_C_R_Chicken_a_letitiphatsa_ngayo",
+                "required": false,
+                "$autoname": "B1_12_C_R_Chicken_a_letitiphatsa_ngayo",
+                "select_from_list_name": "xq24n12"
+            },
+            {
+                "type": "end_group",
+                "$kuid": "/yx2dk30"
+            },
+            {
+                "name": "group_mq8ds86",
+                "type": "begin_group",
+                "$kuid": "wn6lp94",
+                "label": [
+                    "C. Seasonal prediction and prediction of extreme weather events (drought, floods, storms & thunderstorms)/Kuphengulwa kesimo sesikhatsi lesitako nekuphengulwa kwe tehlakalo (somiso, tikhukhula, siphepho kanye nekudvuma kwelitulu)"
+                ],
+                "$xpath": "group_mq8ds86",
+                "$autoname": "group_mq8ds86"
+            },
+            {
+                "type": "select_multiple",
+                "$kuid": "tw8fg27",
+                "label": [
+                    "C1. Which of the following Seasonal predictors and prediction of extreme weather events indicators have you observed/seen in your area? Ngutiphi tinkhomba noma timphawu tekuphengula sikhatsi lesitako netehlakalo lotibonile noma lotivile kulendzawo?"
+                ],
+                "$xpath": "group_mq8ds86/C1_Which_of_the_fol_lotivile_kulendzawo",
+                "required": false,
+                "$autoname": "C1_Which_of_the_fol_lotivile_kulendzawo",
+                "select_from_list_name": "fg74l33"
+            },
+            {
+                "type": "end_group",
+                "$kuid": "/wn6lp94"
+            },
+            {
+                "name": "group_bx6rt12",
+                "type": "begin_group",
+                "$kuid": "nm8ap85",
+                "label": [
+                    "D. Observation"
+                ],
+                "$xpath": "group_bx6rt12",
+                "$autoname": "group_bx6rt12"
+            },
+            {
+                "type": "select_one",
+                "$kuid": "qy6ob16",
+                "label": [
+                    "D1. How is the soil (soil moisture) in your area? Unjani umhlabatsi endzaweni yakho?"
+                ],
+                "$xpath": "group_bx6rt12/D1_How_is_the_soil_atsi_endzaweni_yakho",
+                "required": false,
+                "$autoname": "D1_How_is_the_soil_atsi_endzaweni_yakho",
+                "select_from_list_name": "yc7cj58"
+            },
+            {
+                "type": "select_one",
+                "$kuid": "qw0nj91",
+                "label": [
+                    "D2. How is the vegetation (vegetation greenness) in your area? Tinjani tiganga (buluhlata bato) endzaweni yakho?"
+                ],
+                "$xpath": "group_bx6rt12/D2_How_is_the_veget_ato_endzaweni_yakho",
+                "required": false,
+                "$autoname": "D2_How_is_the_veget_ato_endzaweni_yakho",
+                "select_from_list_name": "lh9ot52"
+            },
+            {
+                "type": "image",
+                "$kuid": "ws2hw78",
+                "label": [
+                    "D3. Please capture/take pictures of other observable phenomenon highlight the impacts or effects of drought (Tsatsa titfombe talokunye lokubonakalako lokutimphawu noma tibonakaliso tekuhlukubetwe somiso)"
+                ],
+                "$xpath": "group_bx6rt12/D3_Please_capture_t_ekuhlukubetwe_somiso",
+                "required": false,
+                "$autoname": "D3_Please_capture_t_ekuhlukubetwe_somiso",
+                "parameters": "max-pixels=2048"
+            },
+            {
+                "type": "end_group",
+                "$kuid": "/nm8ap85"
+            }
+        ],
+        "choices": [
+            {
+                "name": "1__bs___blue_swallows_appearance__tinkon",
+                "$kuid": "Y9h82r6tu",
+                "label": [
+                    "1. BS – Blue Swallows appearance (Tinkonjane tiyabonakala)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "1__bs___blue_swallows_appearance__tinkon"
+            },
+            {
+                "name": "2__sg___southern_ground_hornbill_calling",
+                "$kuid": "8aFOwyOoI",
+                "label": [
+                    "2. SG – Southern Ground-Hornbill calling/singing (Insingizi ikhala)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "2__sg___southern_ground_hornbill_calling"
+            },
+            {
+                "name": "3__afe___african_fish_eagle_calling_sing",
+                "$kuid": "2Docw77vt",
+                "label": [
+                    "3. AFE – African Fish Eagle calling/singing (Inkwazi ikhala)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "3__afe___african_fish_eagle_calling_sing"
+            },
+            {
+                "name": "4__bc___burchell_s_couca_calling_singing",
+                "$kuid": "C7lyqD0DY",
+                "label": [
+                    "4. BC – Burchell's Couca calling/singing (Umfuku ukhala)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "4__bc___burchell_s_couca_calling_singing"
+            },
+            {
+                "name": "5__rcc___red_chested_cuckoo_calling_sing",
+                "$kuid": "A1KLbgVec",
+                "label": [
+                    "5. RCC – Red-chested Cuckoo calling/singing (Phezukomkhono akhala)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "5__rcc___red_chested_cuckoo_calling_sing"
+            },
+            {
+                "name": "6__jc___jacobin_cuckoo_calling_singing__",
+                "$kuid": "a0LWdKZof",
+                "label": [
+                    "6. JC – Jacobin Cuckoo calling/singing (Inkanku ikhala)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "6__jc___jacobin_cuckoo_calling_singing__"
+            },
+            {
+                "name": "7__ebe___european_bee_eater_calling_sing",
+                "$kuid": "qltW8YSpb",
+                "label": [
+                    "7. EBE – European Bee-eater calling/singing (Umhlolamvula ukhala)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "7__ebe___european_bee_eater_calling_sing"
+            },
+            {
+                "name": "8__lb___lightning_bird_calling_singing__",
+                "$kuid": "4NZxnR9rY",
+                "label": [
+                    "8. LB – Lightning bird calling/singing (Tsekwane akhala)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "8__lb___lightning_bird_calling_singing__"
+            },
+            {
+                "name": "9__f___frogs_calling_singing__emacoco_ak",
+                "$kuid": "FbbzFwz1E",
+                "label": [
+                    "9. F – Frogs calling/singing (Emacoco akhala)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "9__f___frogs_calling_singing__emacoco_ak"
+            },
+            {
+                "name": "10__c___caterpillars_appear_in_abundance",
+                "$kuid": "iOUlCOpyU",
+                "label": [
+                    "10. C – Caterpillars appear in abundance (Tibungu letinyenti)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "10__c___caterpillars_appear_in_abundance"
+            },
+            {
+                "name": "11__t___termites_gathering_food__emageng",
+                "$kuid": "iFv2d1tdz",
+                "label": [
+                    "11. T – Termites gathering food (Emagenga/ematheza atfutsetela kudla)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "11__t___termites_gathering_food__emageng"
+            },
+            {
+                "name": "12__c_r___chicken_roosters_crow_midnight",
+                "$kuid": "b0iTyeuoN",
+                "label": [
+                    "12. C/R – Chicken/roosters crow midnight (Tinkhukhu/emachudze akha ekhatsi nebusuku)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "12__c_r___chicken_roosters_crow_midnight"
+            },
+            {
+                "name": "13__ei___euphorbia_ingens_flowering_and_",
+                "$kuid": "OJqQXj10j",
+                "label": [
+                    "13. EI – Euphorbia ingens flowering and fruiting (Umnhlonhlo ubhalashile/ane timbale noma utselile)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "13__ei___euphorbia_ingens_flowering_and_"
+            },
+            {
+                "name": "14__m___mango_high_fruitage__mangoza_uts",
+                "$kuid": "U4XIxGWQq",
+                "label": [
+                    "14. M – Mango high fruitage (Mangoza utsele kakhulu)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "14__m___mango_high_fruitage__mangoza_uts"
+            },
+            {
+                "name": "15__m_s___marula_sclerocarya_birrea_high",
+                "$kuid": "mVGIqwYMD",
+                "label": [
+                    "15. M/S – Marula/sclerocarya birrea high fruitage (Umganu utsele kakhulu)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "15__m_s___marula_sclerocarya_birrea_high"
+            },
+            {
+                "name": "16__ll___live_long_lannea_discolor_high_",
+                "$kuid": "C6jnyltj5",
+                "label": [
+                    "16. LL – Live-long lannea discolor high fruitage (Siganganyane sitsele kakhulu)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "16__ll___live_long_lannea_discolor_high_"
+            },
+            {
+                "name": "17__m_c___moon__crescent__appears_tilted",
+                "$kuid": "xlAakcYu5",
+                "label": [
+                    "17. M/C – Moon (crescent) appears tilted to the side (with dark cloud) Inyeti/inyanga lelucetu ibuke eleleni (futsi inentfo longatsi lifu)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "17__m_c___moon__crescent__appears_tilted"
+            },
+            {
+                "name": "18__cl___clouds__dark_and_dense_with_str",
+                "$kuid": "j3qCHdvFY",
+                "label": [
+                    "18. CL – Clouds, dark and dense with streaks of lightning (Emafu lamnyama lahambisane nembane)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "18__cl___clouds__dark_and_dense_with_str"
+            },
+            {
+                "name": "19__w___wind_blowing_from_east_to_west__",
+                "$kuid": "LqYfToyfn",
+                "label": [
+                    "19. W – Wind blowing from East to West (September/October) (Umoya uhhusha uchamuka eMpumalanga – Ngenyoni/ngeMphala"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "19__w___wind_blowing_from_east_to_west__"
+            },
+            {
+                "name": "20__t_p___temperatures_are_high__lizinga",
+                "$kuid": "CwGrQAPrp",
+                "label": [
+                    "20. T/P – Temperatures are high (Lizinga lekushisa lelisetulu)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "20__t_p___temperatures_are_high__lizinga"
+            },
+            {
+                "name": "21__sk___sky_is_blue_and_clear__sibhakab",
+                "$kuid": "oZYZQGjag",
+                "label": [
+                    "21. Sk – Sky is blue and clear (Sibhakabhaka lesihlobile lesiluhlata)"
+                ],
+                "list_name": "do2ug34",
+                "$autovalue": "21__sk___sky_is_blue_and_clear__sibhakab"
+            },
+            {
+                "name": "1__appearance_of_just_a_few__kubonakala_",
+                "$kuid": "x3uzW5NGO",
+                "label": [
+                    "1. Appearance of just a few (Kubonakala letimbalwa)"
+                ],
+                "list_name": "bz2rx27",
+                "$autovalue": "1__appearance_of_just_a_few__kubonakala_"
+            },
+            {
+                "name": "2__high_influx__kubonakala_letinyenti_le",
+                "$kuid": "oFU6LkLFq",
+                "label": [
+                    "2. High influx (Kubonakala letinyenti/letinyenti kakhulu)"
+                ],
+                "list_name": "bz2rx27",
+                "$autovalue": "2__high_influx__kubonakala_letinyenti_le"
+            },
+            {
+                "name": "1__low_pitched_voice__ikhalela_phansi_ik",
+                "$kuid": "hJy9s8VTw",
+                "label": [
+                    "1. Low pitched voice (Ikhalela phansi/ikhala ngeliphimbo leliphansi)"
+                ],
+                "list_name": "bu8bi51",
+                "$autovalue": "1__low_pitched_voice__ikhalela_phansi_ik"
+            },
+            {
+                "name": "2__high_pitched_voice__ikhalela_etulu_ik",
+                "$kuid": "bBbKEgJB0",
+                "label": [
+                    "2. High pitched voice (Ikhalela etulu/ikhala ngelibhimbo lelisetulu)"
+                ],
+                "list_name": "bu8bi51",
+                "$autovalue": "2__high_pitched_voice__ikhalela_etulu_ik"
+            },
+            {
+                "name": "3__continuous_chirping__ikhala_iphindzap",
+                "$kuid": "v6sGU5DXb",
+                "label": [
+                    "3. Continuous chirping (ikhala iphindzaphidze)"
+                ],
+                "list_name": "bu8bi51",
+                "$autovalue": "3__continuous_chirping__ikhala_iphindzap"
+            },
+            {
+                "name": "1__normal_or_usual_call__ikhala_ngalokuj",
+                "$kuid": "zl8qYrT3T",
+                "label": [
+                    "1. Normal or usual call (Ikhala ngalokujwayelekile)"
+                ],
+                "list_name": "du7ql49",
+                "$autovalue": "1__normal_or_usual_call__ikhala_ngalokuj"
+            },
+            {
+                "name": "2__croak_louder_and_longer__akhala_kakhu",
+                "$kuid": "SCEwSUgVM",
+                "label": [
+                    "2. Croak louder and longer (Akhala kakhulu aphindze akhale sikhatsi lesidze)"
+                ],
+                "list_name": "du7ql49",
+                "$autovalue": "2__croak_louder_and_longer__akhala_kakhu"
+            },
+            {
+                "name": "1__chicken_run_to_the_stable_during_rain",
+                "$kuid": "uNeiZ7SnT",
+                "label": [
+                    "1. Chicken run to the stable during rains (Tinkhukhu tigijima tiye emahhokeni ato)"
+                ],
+                "list_name": "xq24n12",
+                "$autovalue": "1__chicken_run_to_the_stable_during_rain"
+            },
+            {
+                "name": "2__chicken_don_t_care_about_rain__tinkhu",
+                "$kuid": "cHeeF39wX",
+                "label": [
+                    "2. Chicken don't care about rain (Tinkhukhu atinedzaba nemvula lenako)"
+                ],
+                "list_name": "xq24n12",
+                "$autovalue": "2__chicken_don_t_care_about_rain__tinkhu"
+            },
+            {
+                "name": "3__chickens_pick_up_small_stones_and_peb",
+                "$kuid": "nU6rNkLiG",
+                "label": [
+                    "3. Chickens pick up small stones and pebbles and are more noisy than usual (Tinkhukhu tibutsa ematjana lamancane tiphindze tibange umsidvo lomkhulu)"
+                ],
+                "list_name": "xq24n12",
+                "$autovalue": "3__chickens_pick_up_small_stones_and_peb"
+            },
+            {
+                "name": "4__chickens_start_to_behave_in_an_abnorm",
+                "$kuid": "G9aHotX0D",
+                "label": [
+                    "4. Chickens start to behave in an abnormal way, start being restless and looking for areas to hide (Tinkhukhu ticala kutiphatsa noma kwenta ngendlela lengakatayeleki, tikhomba kungahlaliseki tiphindze tihambahambe tifune indzawo yekubhaca noma kukhosela)"
+                ],
+                "list_name": "xq24n12",
+                "$autovalue": "4__chickens_start_to_behave_in_an_abnorm"
+            },
+            {
+                "name": "1__wb___weaver_birds_build_their_nests_f",
+                "$kuid": "4OJZWJO7T",
+                "label": [
+                    "1. WB – Weaver birds build their nests facing west (from October) (Emahlokohloko akha tidleke tawo tibuke Eshonalanga (kusukela ngeMphala)"
+                ],
+                "list_name": "fg74l33",
+                "$autovalue": "1__wb___weaver_birds_build_their_nests_f"
+            },
+            {
+                "name": "2__wb___weaver_birds_build_their_nests_l",
+                "$kuid": "bPaAb7OPD",
+                "label": [
+                    "2. WB – Weaver birds build their nests low on riverbed trees (Emahlokohloko akha tidleke tawo etihlahleni letiphansi letilengela dvute kakhulu nemanti emfuleni)"
+                ],
+                "list_name": "fg74l33",
+                "$autovalue": "2__wb___weaver_birds_build_their_nests_l"
+            },
+            {
+                "name": "3__g_l___grasshoppers_and_locust_infesta",
+                "$kuid": "vVAjswa74",
+                "label": [
+                    "3. G/L – Grasshoppers and locust infestation (Tintsetse ne Migundzatjani leminyenti)"
+                ],
+                "list_name": "fg74l33",
+                "$autovalue": "3__g_l___grasshoppers_and_locust_infesta"
+            },
+            {
+                "name": "4__b___too_many_butterfly__bunch___emavi",
+                "$kuid": "V6ddIMh5i",
+                "label": [
+                    "4. B – Too many butterfly (bunch) (Emavivane lamanyenti)"
+                ],
+                "list_name": "fg74l33",
+                "$autovalue": "4__b___too_many_butterfly__bunch___emavi"
+            },
+            {
+                "name": "5__cw___cows_uncommon_behavior__stand_in",
+                "$kuid": "JgNJOWmk5",
+                "label": [
+                    "5. CW – Cows uncommon behavior (stand in groups, scratch their ears, are restless and antsy and swat flies with their tail or lie down & move to one direction) (Tinkhomo titiphatsa ngendlela lengakavami (tima ticumbi, tidlalisa emadlebe, atihlaliseki, tiphunga timphungane ngemisila noma tilala phansi tiphindze tihambe tibheke ndzawonye)"
+                ],
+                "list_name": "fg74l33",
+                "$autovalue": "5__cw___cows_uncommon_behavior__stand_in"
+            },
+            {
+                "name": "6__ll___live_long_high_fruitage__kutsela",
+                "$kuid": "VRkc6ulvs",
+                "label": [
+                    "6. LL - Live-long high fruitage (Kutsela kakhulu kwe Siganganyane)"
+                ],
+                "list_name": "fg74l33",
+                "$autovalue": "6__ll___live_long_high_fruitage__kutsela"
+            },
+            {
+                "name": "7__tb___turkey_berry_high_fruitage__kuts",
+                "$kuid": "mIRJZdmWd",
+                "label": [
+                    "7. TB – Turkey-berry high fruitage (Kutsela kakhulu kwe Mvutfwamini)"
+                ],
+                "list_name": "fg74l33",
+                "$autovalue": "7__tb___turkey_berry_high_fruitage__kuts"
+            },
+            {
+                "name": "8__fw___widespread_of_white_flowers__kus",
+                "$kuid": "aLEu3QuzW",
+                "label": [
+                    "8. FW – Widespread of white flowers (Kusabalala etindzaweni tonkhe kwetimbali letimhlophe)"
+                ],
+                "list_name": "fg74l33",
+                "$autovalue": "8__fw___widespread_of_white_flowers__kus"
+            },
+            {
+                "name": "1__dry__womile",
+                "$kuid": "RUnTlBnq3",
+                "label": [
+                    "1. Dry (Womile)"
+                ],
+                "list_name": "yc7cj58",
+                "$autovalue": "1__dry__womile"
+            },
+            {
+                "name": "2__wet__umanti",
+                "$kuid": "gmnHFcQXc",
+                "label": [
+                    "2. Wet (Umanti)"
+                ],
+                "list_name": "yc7cj58",
+                "$autovalue": "2__wet__umanti"
+            },
+            {
+                "name": "3__moist__ubutsile",
+                "$kuid": "gmm58kkVY",
+                "label": [
+                    "3. Moist (Ubutsile)"
+                ],
+                "list_name": "yc7cj58",
+                "$autovalue": "3__moist__ubutsile"
+            },
+            {
+                "name": "1__generally_green_almost_green_everywhe",
+                "$kuid": "fGIkKYklw",
+                "label": [
+                    "1. Generally green/almost green everywhere (Tiluhlata cishe tonkhe)"
+                ],
+                "list_name": "lh9ot52",
+                "$autovalue": "1__generally_green_almost_green_everywhe"
+            },
+            {
+                "name": "2__some_few_are_green__timbalwa_letiluhl",
+                "$kuid": "J4LhiKkHx",
+                "label": [
+                    "2. Some/few are green (Timbalwa letiluhlata)"
+                ],
+                "list_name": "lh9ot52",
+                "$autovalue": "2__some_few_are_green__timbalwa_letiluhl"
+            },
+            {
+                "name": "3__brown__bushile",
+                "$kuid": "CpEH4SS2t",
+                "label": [
+                    "3. Brown (Bushile)"
+                ],
+                "list_name": "lh9ot52",
+                "$autovalue": "3__brown__bushile"
+            }
+        ],
+        "settings": {},
+        "translated": [
+            "label"
+        ],
+        "translations": [
+            null
+        ]
+    },
+    "downloads": [
+        {
+            "format": "xls",
+            "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/?format=json.xls"
+        },
+        {
+            "format": "xml",
+            "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/?format=json.xml"
+        }
+    ],
+    "embeds": [
+        {
+            "format": "xls",
+            "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/xls/?format=json"
+        },
+        {
+            "format": "xform",
+            "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/xform/?format=json"
+        }
+    ],
+    "analysis_form_json": {
+        "additional_fields": []
+    },
+    "xform_link": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/xform/?format=json",
+    "hooks_link": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/hooks/?format=json",
+    "tag_string": "",
+    "uid": "a3ytas3GLhSewNTZByCCsd",
+    "kind": "asset",
+    "xls_link": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/xls/?format=json",
+    "name": "Clone of CDI-E - IKS by Akvo",
+    "assignable_permissions": [
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/permissions/view_asset/?format=json",
+            "label": "View form"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/permissions/change_asset/?format=json",
+            "label": "Edit form"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/permissions/manage_asset/?format=json",
+            "label": "Manage project"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/permissions/add_submissions/?format=json",
+            "label": "Add submissions"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/permissions/view_submissions/?format=json",
+            "label": "View submissions"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/permissions/partial_submissions/?format=json",
+            "label": {
+                "default": "Act on submissions only from specific users",
+                "view_submissions": "View submissions only from specific users",
+                "change_submissions": "Edit submissions only from specific users",
+                "delete_submissions": "Delete submissions only from specific users",
+                "validate_submissions": "Validate submissions only from specific users"
+            }
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/permissions/change_submissions/?format=json",
+            "label": "Edit submissions"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/permissions/delete_submissions/?format=json",
+            "label": "Delete submissions"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/permissions/validate_submissions/?format=json",
+            "label": "Validate submissions"
+        }
+    ],
+    "permissions": [
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/permission-assignments/puUUtzohTnG7cbTCdW3EF2/?format=json",
+            "user": "https://kf.kobotoolbox.org/api/v2/users/AnonymousUser/?format=json",
+            "permission": "https://kf.kobotoolbox.org/api/v2/permissions/add_submissions/?format=json",
+            "label": "Add submissions"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/permission-assignments/pLRuWzYYY6oasbugL8pBM5/?format=json",
+            "user": "https://kf.kobotoolbox.org/api/v2/users/ndma_uneswacdi/?format=json",
+            "permission": "https://kf.kobotoolbox.org/api/v2/permissions/add_submissions/?format=json",
+            "label": "Add submissions"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/permission-assignments/pHo74aAbrTLMwUtKcXTHRP/?format=json",
+            "user": "https://kf.kobotoolbox.org/api/v2/users/ndma_uneswacdi/?format=json",
+            "permission": "https://kf.kobotoolbox.org/api/v2/permissions/change_asset/?format=json",
+            "label": "Edit form"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/permission-assignments/pM5X9xLchTnTtQHfgLFNdJ/?format=json",
+            "user": "https://kf.kobotoolbox.org/api/v2/users/ndma_uneswacdi/?format=json",
+            "permission": "https://kf.kobotoolbox.org/api/v2/permissions/change_submissions/?format=json",
+            "label": "Edit submissions"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/permission-assignments/p8KU2Ldr7yPQcpR23mBStt/?format=json",
+            "user": "https://kf.kobotoolbox.org/api/v2/users/ndma_uneswacdi/?format=json",
+            "permission": "https://kf.kobotoolbox.org/api/v2/permissions/delete_submissions/?format=json",
+            "label": "Delete submissions"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/permission-assignments/pykntT6mJDCQUAGyK9oiGc/?format=json",
+            "user": "https://kf.kobotoolbox.org/api/v2/users/ndma_uneswacdi/?format=json",
+            "permission": "https://kf.kobotoolbox.org/api/v2/permissions/manage_asset/?format=json",
+            "label": "Manage project"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/permission-assignments/p3MJMwZfEeYtwtCFUXJijB/?format=json",
+            "user": "https://kf.kobotoolbox.org/api/v2/users/ndma_uneswacdi/?format=json",
+            "permission": "https://kf.kobotoolbox.org/api/v2/permissions/validate_submissions/?format=json",
+            "label": "Validate submissions"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/permission-assignments/pc4C5cpnLZDQPzLNv9iDou/?format=json",
+            "user": "https://kf.kobotoolbox.org/api/v2/users/ndma_uneswacdi/?format=json",
+            "permission": "https://kf.kobotoolbox.org/api/v2/permissions/view_asset/?format=json",
+            "label": "View form"
+        },
+        {
+            "url": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/permission-assignments/pDNvHksXBGjTCWtzcEunQ9/?format=json",
+            "user": "https://kf.kobotoolbox.org/api/v2/users/ndma_uneswacdi/?format=json",
+            "permission": "https://kf.kobotoolbox.org/api/v2/permissions/view_submissions/?format=json",
+            "label": "View submissions"
+        }
+    ],
+    "effective_permissions": [
+        {
+            "codename": "change_asset"
+        },
+        {
+            "codename": "add_submissions"
+        },
+        {
+            "codename": "delete_submissions"
+        },
+        {
+            "codename": "delete_asset"
+        },
+        {
+            "codename": "view_asset"
+        },
+        {
+            "codename": "view_submissions"
+        },
+        {
+            "codename": "change_submissions"
+        },
+        {
+            "codename": "manage_asset"
+        },
+        {
+            "codename": "validate_submissions"
+        }
+    ],
+    "exports": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/exports/?format=json",
+    "export_settings": [],
+    "data": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/data/?format=json",
+    "children": {
+        "count": 0
+    },
+    "subscribers_count": 0,
+    "status": "shared",
+    "access_types": null,
+    "data_sharing": {},
+    "paired_data": "https://kf.kobotoolbox.org/api/v2/assets/a3ytas3GLhSewNTZByCCsd/paired-data/?format=json",
+    "project_ownership": null,
+    "owner_label": "ndma_uneswacdi",
+    "last_modified_by": "ndma_uneswacdi"
+}
