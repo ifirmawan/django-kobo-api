@@ -1,0 +1,10 @@
+# Added by code-review-graph
+.code-review-graph/
+
+.env
+db.sqlite3
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
